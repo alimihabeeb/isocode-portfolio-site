@@ -1,0 +1,76 @@
+section.landPage {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/c_scale,h_1000,w_1000/v1631540128/isocode_assests/background_9_gocgwz.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    div#landContent {
+        height: auto;
+        header {
+            @include flexDisplay();
+            justify-content: space-between;
+            position: relative;
+            width: 100%;
+            height: 10vh;
+            background-color: rgba(0, 0, 0, 0.507);
+            position: fixed;
+            z-index: 1;
+            div#logo {
+                p {
+                    font-size: 2em;
+                    color: $whiteColor;
+                    padding: 20px 20px;
+                }
+            }
+            nav {
+                ul {
+                    display: block;
+                    list-style: none;
+                    li {
+                        display: inline-block;
+                        a {
+                            padding: 0px 5px;
+                            display: block;
+                            color: $skyBlueColor;
+                            @include linkStyle($skyBlueColor, 1.7em, 20px 10px, none, .5s, 1.7em);
+                        }
+                    }
+                }
+            }
+        }
+        div#inclusion {
+            @include flexDisplay();
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            height: 90vh;
+            h1 {
+                color: $whiteColor;
+                margin: 15px;
+                line-height: 10vh;
+                font-size: 3em;
+                text-shadow: -5px 5px 10px $skyBlueColor;
+                animation-name: textGlow;
+                animation-duration: 2s;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+                @keyframes textGlow {
+                    0% {
+                        text-shadow: 5px 0px 10px $skyBlueColor;
+                    }
+                    25% {
+                        text-shadow: 25px 10px 20px $skyBlueColor;
+                    }
+                    50% {
+                        text-shadow: -20px -10px 30px $skyBlueColor;
+                    }
+                    100% {
+                        text-shadow: 5px 0px 10px $skyBlueColor;
+                    }
+                }
+            }
+            a {
+                @include linkStyle($whiteColor, 3.7em, 0%, none, .8s, 3.6em);
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+footer {
+    section#seventhBox {
+        height: 30vh;
+        @include flexDisplay();
+        justify-content: center;
+        flex-direction: column;
+        div#footer_logo {
+            height: 10vh;
+            @include flexDisplay();
+            justify-content: center;
+            font-weight: bolder;
+        }
+        div#footer_end {
+            height: 20vh;
+            width: 100%;
+            @include flexDisplay();
+            justify-content: space-around;
+            div#footer_nav {
+                nav {
+                    ul {
+                        display: block;
+                        list-style: none;
+                        li {
+                            display: inline-block;
+                            a {
+                                display: block;
+                                text-decoration: none;
+                                text-align: center;
+                                font-size: 1.4em;
+                                margin: 0px 20px;
+                                padding: 5px 0px;
+                                color: $subTextColor;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+            div#footer_contact {
+                ul {
+                    display: block;
+                    list-style: none;
+                    li {
+                        display: inline-block;
+                        a {
+                            display: block;
+                            text-decoration: none;
+                            text-align: center;
+                            font-size: 1.7em;
+                            margin: 0px 20px;
+                            padding: 5px 0px;
+                            color: rgb(0, 0, 0);
+                            i {
+                                display: inline-block;
+                            }
+                            i.upwork {
+                                content: url(../images/vet.png);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

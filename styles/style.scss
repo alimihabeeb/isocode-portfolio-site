@@ -1,0 +1,57 @@
+                @import "./variables";
+                @import"./synStyles";
+                @import"./landPage";
+                @import"./about";
+                @import"./services";
+                @import"./testimony";
+                @import"./projects";
+                @import"./contact";
+                @import"./footer";
+                * {
+                    padding: 0%;
+                    margin: 0%;
+                    box-sizing: border-box;
+                    height: auto;
+                }
+                
+                header,
+                body,
+                p,
+                hr,
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6,
+                *::after,
+                *::before,
+                ul,
+                li,
+                a {
+                    padding: 0%;
+                    margin: 0%;
+                    box-sizing: border-box;
+                }
+                
+                hr {
+                    height: 2px;
+                    background-color: $skyBlueColor;
+                    border: none;
+                }
+                
+                html {
+                    font-size: 100%;
+                }
+                
+                body {
+                    font-size: 100%;
+                    padding: 0;
+                    margin: 0;
+                    box-sizing: border-box;
+                    background-color: $greyColor;
+                    font-family: 'Quattrocento Sans', sans-serif;
+                    overflow-x: hidden;
+                }
+                
+                @import "./responsive";

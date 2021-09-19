@@ -1,0 +1,53 @@
+section.testimony {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/v1631540117/isocode_assests/background_10_rpsjsu.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 15px;
+    height: 50vh;
+    div#testimonyContent {
+        height: 50vh;
+        color: $whiteColor;
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+        }
+        div#testimonyContainer {
+            @include flexDisplay();
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            height: 40vh;
+            &>div {
+                padding: 15px;
+                transform: scale(0.8);
+                width: 33%;
+                i {
+                    font-weight: bolder;
+                    font-size: 4em;
+                    color: transparent;
+                    -webkit-text-stroke-color: $skyBlueColor;
+                    -webkit-text-stroke-width: 2px;
+                }
+                p {
+                    font-size: 1.25em;
+                    font-weight: lighter;
+                    line-height: 1.3em;
+                    font-weight: bold;
+                }
+                div {
+                    width: 100%;
+                    height: auto;
+                    @include flexDisplay();
+                    justify-content: flex-start;
+                    img {
+                        border-radius: 50%;
+                        width: 20%;
+                    }
+                    p {
+                        font-size: 1.6em;
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

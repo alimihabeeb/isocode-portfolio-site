@@ -1,0 +1,3389 @@
+section.landPage {
+  background-image: url(https://res.cloudinary.com/isocode/image/upload/c_scale,h_1000,w_1000/v1631540128/isocode_assests/background_9_gocgwz.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+section.landPage div#landContent {
+  height: auto;
+}
+
+section.landPage div#landContent header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  width: 100%;
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.507);
+  position: fixed;
+  z-index: 1;
+}
+
+section.landPage div#landContent header div#logo p {
+  font-size: 2em;
+  color: white;
+  padding: 20px 20px;
+}
+
+section.landPage div#landContent header nav ul {
+  display: block;
+  list-style: none;
+}
+
+section.landPage div#landContent header nav ul li {
+  display: inline-block;
+}
+
+section.landPage div#landContent header nav ul li a {
+  padding: 0px 5px;
+  display: block;
+  color: cyan;
+  color: cyan;
+  display: block;
+  text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  font-size: 1.7em;
+  margin: 20px 10px;
+  position: relative;
+}
+
+section.landPage div#landContent header nav ul li a::after {
+  content: '';
+  position: absolute;
+  left: 0%;
+  bottom: -4%;
+  height: .05em;
+  width: 100%;
+  background-color: cyan;
+  border-radius: 20px;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform linear;
+  transition: -webkit-transform linear;
+  transition: transform linear;
+  transition: transform linear, -webkit-transform linear;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+section.landPage div#landContent header nav ul li a:hover::after {
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+section.landPage div#landContent header nav ul li a:hover {
+  color: none;
+  font-size: 1.7em;
+}
+
+section.landPage div#landContent div#inclusion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 90vh;
+}
+
+section.landPage div#landContent div#inclusion h1 {
+  color: white;
+  margin: 15px;
+  line-height: 10vh;
+  font-size: 3em;
+  text-shadow: -5px 5px 10px cyan;
+  -webkit-animation-name: textGlow;
+          animation-name: textGlow;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes textGlow {
+  0% {
+    text-shadow: 5px 0px 10px cyan;
+  }
+  25% {
+    text-shadow: 25px 10px 20px cyan;
+  }
+  50% {
+    text-shadow: -20px -10px 30px cyan;
+  }
+  100% {
+    text-shadow: 5px 0px 10px cyan;
+  }
+}
+
+@keyframes textGlow {
+  0% {
+    text-shadow: 5px 0px 10px cyan;
+  }
+  25% {
+    text-shadow: 25px 10px 20px cyan;
+  }
+  50% {
+    text-shadow: -20px -10px 30px cyan;
+  }
+  100% {
+    text-shadow: 5px 0px 10px cyan;
+  }
+}
+
+section.landPage div#landContent div#inclusion a {
+  color: white;
+  display: block;
+  text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  font-size: 3.7em;
+  margin: 0%;
+  position: relative;
+}
+
+section.landPage div#landContent div#inclusion a::after {
+  content: '';
+  position: absolute;
+  left: 0%;
+  bottom: -4%;
+  height: .05em;
+  width: 100%;
+  background-color: cyan;
+  border-radius: 20px;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform linear;
+  transition: -webkit-transform linear;
+  transition: transform linear;
+  transition: transform linear, -webkit-transform linear;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+section.landPage div#landContent div#inclusion a:hover::after {
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+section.landPage div#landContent div#inclusion a:hover {
+  color: none;
+  font-size: 3.6em;
+}
+
+section.about {
+  height: 100vh;
+}
+
+section.about div#aboutContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: inherit;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+section.about div#aboutContent div#intro {
+  width: 50%;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+section.about div#aboutContent div#intro p {
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 35px;
+}
+
+section.about div#aboutContent div#intro p:first-child {
+  font-size: 1.5em;
+}
+
+section.about div#aboutContent div#intro p:nth-child(4) {
+  font-size: 1.3em;
+}
+
+section.about div#aboutContent div#intro a {
+  width: 29%;
+  text-align: center;
+  font-weight: bolder;
+  -webkit-transition: font-size .5s;
+  transition: font-size .5s;
+  color: white;
+  display: block;
+  text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  font-size: 2.3em;
+  margin: 30px 0px 0px 200px;
+  position: relative;
+}
+
+section.about div#aboutContent div#intro a::after {
+  content: '';
+  position: absolute;
+  left: 0%;
+  bottom: -4%;
+  height: .05em;
+  width: 100%;
+  background-color: cyan;
+  border-radius: 20px;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform linear;
+  transition: -webkit-transform linear;
+  transition: transform linear;
+  transition: transform linear, -webkit-transform linear;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+section.about div#aboutContent div#intro a:hover::after {
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+section.about div#aboutContent div#intro a:hover {
+  color: #0a0a0a;
+  font-size: 2.2em;
+}
+
+section.about div#aboutContent aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  width: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.about div#aboutContent aside img {
+  max-width: 100vmax;
+  height: 70vh;
+  -webkit-filter: brightness(120%);
+          filter: brightness(120%);
+  border-radius: 30px;
+}
+
+section.services {
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+}
+
+section.services div#servicesContent {
+  height: 50vh;
+  width: 100vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.services div#servicesContent h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+section.services div#servicesContent div#servicesContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: auto;
+}
+
+section.services div#servicesContent div#servicesContainer > p {
+  margin: 20px;
+  width: 25vw;
+  height: auto;
+  background-color: rgba(95, 95, 95, 0.37);
+  text-align: center;
+  padding: 30px 0px;
+  font-size: 1.5em;
+  font-weight: bolder;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-filter: opacity(0.7);
+          filter: opacity(0.7);
+  color: #0a0a0a;
+  text-shadow: 2px 3px 5px #4e4e4e;
+  -webkit-transition: -webkit-transform .5s, -webkit-filter .5s;
+  transition: -webkit-transform .5s, -webkit-filter .5s;
+  transition: transform .5s, filter .5s;
+  transition: transform .5s, filter .5s, -webkit-transform .5s, -webkit-filter .5s;
+}
+
+section.services div#servicesContent div#servicesContainer > p:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-filter: opacity(1);
+          filter: opacity(1);
+}
+
+section.testimony {
+  background-image: url(https://res.cloudinary.com/isocode/image/upload/v1631540117/isocode_assests/background_10_rpsjsu.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 15px;
+  height: 50vh;
+}
+
+section.testimony div#testimonyContent {
+  height: 50vh;
+  color: white;
+}
+
+section.testimony div#testimonyContent h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+section.testimony div#testimonyContent div#testimonyContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 40vh;
+}
+
+section.testimony div#testimonyContent div#testimonyContainer > div {
+  padding: 15px;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  width: 33%;
+}
+
+section.testimony div#testimonyContent div#testimonyContainer > div i {
+  font-weight: bolder;
+  font-size: 4em;
+  color: transparent;
+  -webkit-text-stroke-color: cyan;
+  -webkit-text-stroke-width: 2px;
+}
+
+section.testimony div#testimonyContent div#testimonyContainer > div p {
+  font-size: 1.25em;
+  font-weight: lighter;
+  line-height: 1.3em;
+  font-weight: bold;
+}
+
+section.testimony div#testimonyContent div#testimonyContainer > div div {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+section.testimony div#testimonyContent div#testimonyContainer > div div img {
+  border-radius: 50%;
+  width: 20%;
+}
+
+section.testimony div#testimonyContent div#testimonyContainer > div div p {
+  font-size: 1.6em;
+  padding: 10px;
+}
+
+section.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  height: 100vh;
+}
+
+section.projects div#projectsContainer {
+  height: 80vh;
+  width: 100vw;
+  margin: auto;
+}
+
+section.projects div#projectsContainer h1 {
+  text-align: center;
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+section.projects div#projectsContainer p {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+section.projects div#projectsContainer div#projectsContent {
+  background-color: #b1a7a7;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.projects div#projectsContainer div#projectsContent > div {
+  height: auto;
+  width: auto;
+  margin: auto;
+}
+
+section.projects div#projectsContainer div#projectsContent > div:first-child {
+  background: url(https://res.cloudinary.com/isocode/image/upload/v1631540719/isocode_assests/laFurniture_godian.png);
+  height: 30vh;
+  width: 29.8vw;
+}
+
+section.projects div#projectsContainer div#projectsContent > div:nth-child(2) {
+  background: url(https://res.cloudinary.com/isocode/image/upload/v1631540712/isocode_assests/laBooking_algn2j.jpg);
+  height: 33vh;
+  width: 30.15vw;
+}
+
+section.projects div#projectsContainer div#projectsContent > div:last-child {
+  background: url(https://res.cloudinary.com/isocode/image/upload/v1631540719/isocode_assests/laHotel_py48se.png);
+  height: 30vh;
+  width: 30.2vw;
+}
+
+section.projects div#projectsContainer div#projectsContent > div:first-child, section.projects div#projectsContainer div#projectsContent > div:nth-child(2), section.projects div#projectsContainer div#projectsContent > div:last-child {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  -webkit-transition: -webkit-transform .4s;
+  transition: -webkit-transform .4s;
+  transition: transform .4s;
+  transition: transform .4s, -webkit-transform .4s;
+}
+
+section.projects div#projectsContainer div#projectsContent > div:first-child .middle, section.projects div#projectsContainer div#projectsContent > div:nth-child(2) .middle, section.projects div#projectsContainer div#projectsContent > div:last-child .middle {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: capitalize;
+}
+
+section.projects div#projectsContainer div#projectsContent > div:first-child .middle .text, section.projects div#projectsContainer div#projectsContent > div:nth-child(2) .middle .text, section.projects div#projectsContainer div#projectsContent > div:last-child .middle .text {
+  border-radius: 10px;
+  text-transform: capitalize;
+  background-color: #00000093;
+}
+
+section.projects div#projectsContainer div#projectsContent > div:first-child .middle .text p, section.projects div#projectsContainer div#projectsContent > div:nth-child(2) .middle .text p, section.projects div#projectsContainer div#projectsContent > div:last-child .middle .text p {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  color: white;
+}
+
+section.projects div#projectsContainer div#projectsContent > div:first-child .middle .text a, section.projects div#projectsContainer div#projectsContent > div:nth-child(2) .middle .text a, section.projects div#projectsContainer div#projectsContent > div:last-child .middle .text a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: cyan;
+}
+
+section.projects div#projectsContainer div#projectsContent > div:first-child:hover, section.projects div#projectsContainer div#projectsContent > div:nth-child(2):hover, section.projects div#projectsContainer div#projectsContent > div:last-child:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+section.projects div#projectsContainer div#projectsContent > div:first-child:hover .middle, section.projects div#projectsContainer div#projectsContent > div:nth-child(2):hover .middle, section.projects div#projectsContainer div#projectsContent > div:last-child:hover .middle {
+  opacity: 1;
+}
+
+section.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 90vh;
+}
+
+section.contact div#contactContainer {
+  margin: auto;
+  width: 100vw;
+}
+
+section.contact div#contactContainer h1 {
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section.contact div#contactContainer div#contactContent {
+  background-image: url(https://res.cloudinary.com/isocode/image/upload/v1631539544/isocode_assests/background_13_oyw9rn.jpg);
+  background-size: cover;
+  height: 65vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section.contact div#contactContainer div#contactContent div#reachUs {
+  width: 48%;
+}
+
+section.contact div#contactContainer div#contactContent div#reachUs .inN {
+  color: black;
+  border: 1px solid transparent;
+  outline: 0px solid transparent;
+  background: rgba(255, 255, 255, 0.658);
+  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9);
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9);
+  padding: 20px 80px 10px 10px;
+  margin: 8px 0px 0px 8px;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+section.contact div#contactContainer div#contactContent div#reachUs .inN::-webkit-input-placeholder {
+  color: black;
+}
+
+section.contact div#contactContainer div#contactContent div#reachUs .inN:-ms-input-placeholder {
+  color: black;
+}
+
+section.contact div#contactContainer div#contactContent div#reachUs .inN::-ms-input-placeholder {
+  color: black;
+}
+
+section.contact div#contactContainer div#contactContent div#reachUs .inN::placeholder {
+  color: black;
+}
+
+section.contact div#contactContainer div#contactContent div#reachUs input[type="submit"] {
+  padding: 15px 25px 5px;
+}
+
+section.contact div#contactContainer div#contactContent aside {
+  color: transparent;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1.5px;
+  width: 48%;
+  text-align: center;
+  font-size: 6em;
+  font-style: italic;
+}
+
+footer section#seventhBox {
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer section#seventhBox div#footer_logo {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bolder;
+}
+
+footer section#seventhBox div#footer_end {
+  height: 20vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer section#seventhBox div#footer_end div#footer_nav nav ul {
+  display: block;
+  list-style: none;
+}
+
+footer section#seventhBox div#footer_end div#footer_nav nav ul li {
+  display: inline-block;
+}
+
+footer section#seventhBox div#footer_end div#footer_nav nav ul li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.4em;
+  margin: 0px 20px;
+  padding: 5px 0px;
+  color: #0a0a0a;
+  font-weight: bold;
+}
+
+footer section#seventhBox div#footer_end div#footer_contact ul {
+  display: block;
+  list-style: none;
+}
+
+footer section#seventhBox div#footer_end div#footer_contact ul li {
+  display: inline-block;
+}
+
+footer section#seventhBox div#footer_end div#footer_contact ul li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.7em;
+  margin: 0px 20px;
+  padding: 5px 0px;
+  color: black;
+}
+
+footer section#seventhBox div#footer_end div#footer_contact ul li a i {
+  display: inline-block;
+}
+
+footer section#seventhBox div#footer_end div#footer_contact ul li a i.upwork {
+  content: url(../images/vet.png);
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: auto;
+}
+
+header,
+body,
+p,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+*::after,
+*::before,
+ul,
+li,
+a {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+hr {
+  height: 2px;
+  background-color: cyan;
+  border: none;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #b1a7a7;
+  font-family: 'Quattrocento Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+@media screen and (min-width: 320px) and (max-width: 360px) {
+  body section.landPage {
+    height: 80vh;
+  }
+  body section.landPage div#landContent header {
+    background-color: rgba(0, 0, 0, 0.507);
+    height: 10vh;
+  }
+  body section.landPage div#landContent header div#logo {
+    background-color: red;
+  }
+  body section.landPage div#landContent header div#logo p {
+    padding: 0;
+    font-size: 1em;
+  }
+  body section.landPage div#landContent header nav {
+    text-align: right;
+  }
+  body section.landPage div#landContent header nav ul {
+    display: block;
+    list-style: none;
+  }
+  body section.landPage div#landContent header nav ul li {
+    display: inline-block;
+  }
+  body section.landPage div#landContent header nav ul li a {
+    padding: 0px 3px;
+    display: block;
+    color: cyan;
+    color: cyan;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 1em;
+    margin: 0px;
+    position: relative;
+  }
+  body section.landPage div#landContent header nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+  }
+  body section.landPage div#landContent header nav ul li a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.landPage div#landContent header nav ul li a:hover {
+    color: none;
+    font-size: 0.9em;
+  }
+  body section.landPage div#landContent div#inclusion {
+    height: 70vh;
+  }
+  body section.landPage div#landContent div#inclusion h1 {
+    color: white;
+    margin: 0px;
+    line-height: 6vh;
+    font-size: 1.1em;
+    text-shadow: -5px 5px 10px cyan;
+  }
+  body section.landPage div#landContent div#inclusion a {
+    font-weight: bolder;
+    color: white;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 1.3em;
+    margin: 20px 0px 0px;
+    position: relative;
+  }
+  body section.landPage div#landContent div#inclusion a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+  }
+  body section.landPage div#landContent div#inclusion a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.landPage div#landContent div#inclusion a:hover {
+    color: #0a0a0a;
+    font-size: 1.3em;
+  }
+  body section.about div#aboutContent {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body section.about div#aboutContent div#intro {
+    height: 70vh;
+    width: 100%;
+    padding: 7px 5px 0px 5px;
+    text-align: left;
+  }
+  body section.about div#aboutContent div#intro p {
+    line-height: 20px;
+    text-align: center;
+    font-size: 1em;
+  }
+  body section.about div#aboutContent div#intro p:first-child {
+    font-size: 1em;
+  }
+  body section.about div#aboutContent div#intro p:nth-child(4) {
+    font-size: 1em;
+  }
+  body section.about div#aboutContent div#intro a {
+    width: 40%;
+    color: white;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 1.3em;
+    margin: 10px 0px 0px 90px;
+    position: relative;
+  }
+  body section.about div#aboutContent div#intro a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+  }
+  body section.about div#aboutContent div#intro a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.about div#aboutContent div#intro a:hover {
+    color: #0a0a0a;
+    font-size: 1.3em;
+  }
+  body section.about div#aboutContent aside {
+    display: none;
+  }
+  body section.services {
+    height: 100vh;
+  }
+  body section.services div#servicesContent {
+    height: inherit;
+    padding: 20px;
+  }
+  body section.services div#servicesContent div#servicesContainer > p {
+    margin: 16px 0px;
+    width: 65vw;
+    padding: 10px 0px;
+    font-size: 1.35em;
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+    text-shadow: 2px 3px 5px #4e4e4e;
+    -webkit-transition: -webkit-transform .5s, -webkit-filter .5s;
+    transition: -webkit-transform .5s, -webkit-filter .5s;
+    transition: transform .5s, filter .5s;
+    transition: transform .5s, filter .5s, -webkit-transform .5s, -webkit-filter .5s;
+  }
+  body section.testimony {
+    height: 150vh;
+    background-size: 100%;
+    background-position: center;
+    padding: 0;
+    background: none;
+  }
+  body section.testimony div#testimonyContent {
+    height: inherit;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer {
+    height: 90vh;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/v1631540117/isocode_assests/background_10_rpsjsu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: auto;
+  }
+  body section.projects {
+    padding: 10px;
+    height: 160vh;
+  }
+  body section.projects div#projectsContainer {
+    height: 150vh;
+  }
+  body section.projects div#projectsContainer div#projectsContent {
+    height: 120vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+    margin: 0;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div {
+    padding: 0;
+    margin: 0;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:first-child {
+    width: 100%;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:nth-child(2) {
+    width: 100%;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:last-child {
+    width: 100%;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:first-child .middle, body section.projects div#projectsContainer div#projectsContent > div:nth-child(2) .middle, body section.projects div#projectsContainer div#projectsContent > div:last-child .middle {
+    display: none;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:first-child:hover, body section.projects div#projectsContainer div#projectsContent > div:nth-child(2):hover, body section.projects div#projectsContainer div#projectsContent > div:last-child:hover {
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+  }
+  body section.contact {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/v1631539544/isocode_assests/background_13_oyw9rn.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  body section.contact div#contactContainer h1 {
+    color: transparent;
+    -webkit-text-stroke-color: white;
+    background-color: rgba(87, 75, 75, 0.267);
+    -webkit-text-stroke-width: .1px;
+    font-weight: bolder;
+  }
+  body section.contact div#contactContainer div#contactContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 90vh;
+    background: none;
+  }
+  body section.contact div#contactContainer div#contactContent div#reachUs {
+    width: 100vw;
+  }
+  body section.contact div#contactContainer div#contactContent div#reachUs .inN {
+    padding: 0%;
+    margin: 0%;
+    padding: 15px 0px 2px 4px;
+    font-size: 1.3em;
+    border-radius: 7px;
+    margin: 7px;
+  }
+  body section.contact div#contactContainer div#contactContent aside {
+    display: none;
+  }
+  body footer section#seventhBox {
+    height: auto;
+  }
+  body footer section#seventhBox div#footer_logo {
+    height: 10vh;
+  }
+  body footer section#seventhBox div#footer_end {
+    height: auto;
+  }
+  body footer section#seventhBox div#footer_end div#footer_nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 435px) {
+  body section.landPage {
+    height: 80vh;
+  }
+  body section.landPage div#landContent header {
+    height: 10vh;
+  }
+  body section.landPage div#landContent header div#logo {
+    background-color: red;
+  }
+  body section.landPage div#landContent header div#logo p {
+    padding: 0;
+    font-size: 1em;
+  }
+  body section.landPage div#landContent header nav {
+    text-align: right;
+  }
+  body section.landPage div#landContent header nav ul li a {
+    color: red;
+    color: cyan;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 1em;
+    margin: 0;
+    position: relative;
+  }
+  body section.landPage div#landContent header nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.7s;
+            transition-duration: 0.7s;
+  }
+  body section.landPage div#landContent header nav ul li a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.landPage div#landContent header nav ul li a:hover {
+    color: black;
+    font-size: 1em;
+  }
+  body section.landPage div#landContent div#inclusion {
+    height: 70vh;
+  }
+  body section.landPage div#landContent div#inclusion h1 {
+    color: white;
+    margin: 0px;
+    line-height: 6vh;
+    font-size: 1.4em;
+    padding: 0;
+    font-weight: bolder;
+    text-shadow: -5px 5px 10px cyan;
+  }
+  body section.landPage div#landContent div#inclusion a {
+    font-weight: bolder;
+    color: white;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 20px 0px 0px;
+    position: relative;
+  }
+  body section.landPage div#landContent div#inclusion a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+  }
+  body section.landPage div#landContent div#inclusion a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.landPage div#landContent div#inclusion a:hover {
+    color: #0a0a0a;
+    font-size: 1.3em;
+  }
+  body section.about div#aboutContent {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body section.about div#aboutContent div#intro {
+    height: 70vh;
+    width: 100%;
+    padding: 7px 5px 0px 5px;
+    text-align: left;
+  }
+  body section.about div#aboutContent div#intro p {
+    line-height: 20px;
+    text-align: center;
+    font-size: 1em;
+  }
+  body section.about div#aboutContent div#intro p:first-child {
+    font-size: 1em;
+  }
+  body section.about div#aboutContent div#intro p:nth-child(4) {
+    font-size: 1em;
+  }
+  body section.about div#aboutContent div#intro a {
+    width: 40%;
+    color: white;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 1.3em;
+    margin: 10px 0px 0px 90px;
+    position: relative;
+  }
+  body section.about div#aboutContent div#intro a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+  }
+  body section.about div#aboutContent div#intro a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.about div#aboutContent div#intro a:hover {
+    color: #0a0a0a;
+    font-size: 1.3em;
+  }
+  body section.about div#aboutContent aside {
+    display: none;
+  }
+  body section.services {
+    height: 100vh;
+  }
+  body section.services div#servicesContent {
+    height: inherit;
+    padding: 20px;
+  }
+  body section.services div#servicesContent div#servicesContainer > p {
+    margin: 16px 0px;
+    width: 65vw;
+    padding: 10px 0px;
+    font-size: 1.35em;
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+    text-shadow: 2px 3px 5px #4e4e4e;
+    -webkit-transition: -webkit-transform .5s, -webkit-filter .5s;
+    transition: -webkit-transform .5s, -webkit-filter .5s;
+    transition: transform .5s, filter .5s;
+    transition: transform .5s, filter .5s, -webkit-transform .5s, -webkit-filter .5s;
+  }
+  body section.testimony {
+    height: 150vh;
+    background-size: 100%;
+    background-position: center;
+    padding: 0;
+    background: none;
+  }
+  body section.testimony div#testimonyContent {
+    height: inherit;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer {
+    height: 90vh;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/v1631540117/isocode_assests/background_10_rpsjsu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: auto;
+  }
+  body section.projects {
+    padding: 10px;
+    height: 160vh;
+  }
+  body section.projects div#projectsContainer {
+    height: 150vh;
+  }
+  body section.projects div#projectsContainer div#projectsContent {
+    height: 120vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+    margin: 0;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div {
+    padding: 0;
+    margin: 0;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:first-child {
+    width: 100%;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:nth-child(2) {
+    width: 100%;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:last-child {
+    width: 100%;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:first-child .middle, body section.projects div#projectsContainer div#projectsContent > div:nth-child(2) .middle, body section.projects div#projectsContainer div#projectsContent > div:last-child .middle {
+    display: none;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:first-child:hover, body section.projects div#projectsContainer div#projectsContent > div:nth-child(2):hover, body section.projects div#projectsContainer div#projectsContent > div:last-child:hover {
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+  }
+  body section.contact {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/v1631539544/isocode_assests/background_13_oyw9rn.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  body section.contact div#contactContainer h1 {
+    color: transparent;
+    -webkit-text-stroke-color: white;
+    background-color: rgba(87, 75, 75, 0.267);
+    -webkit-text-stroke-width: .1px;
+    font-weight: bolder;
+  }
+  body section.contact div#contactContainer div#contactContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 90vh;
+    background: none;
+  }
+  body section.contact div#contactContainer div#contactContent div#reachUs {
+    width: 100vw;
+  }
+  body section.contact div#contactContainer div#contactContent div#reachUs .inN {
+    padding: 0%;
+    margin: 0%;
+    padding: 15px 0px 2px 4px;
+    font-size: 1.3em;
+    border-radius: 7px;
+    margin: 7px;
+  }
+  body section.contact div#contactContainer div#contactContent aside {
+    display: none;
+  }
+  body footer section#seventhBox {
+    height: auto;
+  }
+  body footer section#seventhBox div#footer_logo {
+    height: 10vh;
+  }
+  body footer section#seventhBox div#footer_end {
+    height: auto;
+  }
+  body footer section#seventhBox div#footer_end div#footer_nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 436px) and (max-width: 495px) {
+  body section.landPage {
+    height: 80vh;
+  }
+  body section.landPage div#landContent header {
+    height: 15vh;
+  }
+  body section.landPage div#landContent header div#logo {
+    background-color: red;
+  }
+  body section.landPage div#landContent header div#logo p {
+    padding: 0;
+    font-size: 1.4em;
+  }
+  body section.landPage div#landContent header nav ul li a {
+    color: red;
+    color: cyan;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 1.1em;
+    margin: 0px 10px;
+    position: relative;
+  }
+  body section.landPage div#landContent header nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.7s;
+            transition-duration: 0.7s;
+  }
+  body section.landPage div#landContent header nav ul li a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.landPage div#landContent header nav ul li a:hover {
+    color: black;
+    font-size: 1.1em;
+  }
+  body section.landPage div#landContent div#inclusion {
+    height: 65vh;
+  }
+  body section.landPage div#landContent div#inclusion h1 {
+    color: white;
+    margin: 0px;
+    line-height: 7vh;
+    font-weight: bolder;
+    font-size: 1.3em;
+    text-shadow: -5px 5px 10px cyan;
+  }
+  body section.landPage div#landContent div#inclusion a {
+    font-weight: bolder;
+    color: white;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 1.4em;
+    margin: 20px 0px 0px;
+    position: relative;
+  }
+  body section.landPage div#landContent div#inclusion a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+  }
+  body section.landPage div#landContent div#inclusion a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.landPage div#landContent div#inclusion a:hover {
+    color: #0a0a0a;
+    font-size: 1.3em;
+  }
+  body section.about div#aboutContent {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body section.about div#aboutContent div#intro {
+    height: 70vh;
+    width: 100%;
+    padding: 7px 5px 0px 5px;
+    text-align: left;
+  }
+  body section.about div#aboutContent div#intro p {
+    line-height: 25px;
+    text-align: center;
+    font-size: 1.1em;
+  }
+  body section.about div#aboutContent div#intro p:first-child {
+    font-size: 1.4em;
+  }
+  body section.about div#aboutContent div#intro p:nth-child(4) {
+    font-size: 1.3em;
+  }
+  body section.about div#aboutContent div#intro a {
+    width: 40%;
+    color: white;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 1.3em;
+    margin: 10px 0px 0px 130px;
+    position: relative;
+  }
+  body section.about div#aboutContent div#intro a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+  }
+  body section.about div#aboutContent div#intro a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.about div#aboutContent div#intro a:hover {
+    color: #0a0a0a;
+    font-size: 1.3em;
+  }
+  body section.about div#aboutContent aside {
+    display: none;
+  }
+  body section.services {
+    height: 100vh;
+  }
+  body section.services div#servicesContent {
+    height: inherit;
+    padding: 20px;
+  }
+  body section.services div#servicesContent div#servicesContainer > p {
+    margin: 14px 0px;
+    width: 65vw;
+    padding: 12.5px 0px;
+    font-size: 1.5em;
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    text-shadow: 2px 3px 5px #4e4e4e;
+    -webkit-transition: -webkit-transform .5s, -webkit-filter .5s;
+    transition: -webkit-transform .5s, -webkit-filter .5s;
+    transition: transform .5s, filter .5s;
+    transition: transform .5s, filter .5s, -webkit-transform .5s, -webkit-filter .5s;
+  }
+  body section.testimony {
+    height: 150vh;
+    background-size: 100%;
+    background-position: center;
+    padding: 0;
+    background: none;
+  }
+  body section.testimony div#testimonyContent {
+    height: inherit;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer {
+    height: 90vh;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/v1631540117/isocode_assests/background_10_rpsjsu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: auto;
+  }
+  body section.projects {
+    padding: 10px;
+    height: 160vh;
+  }
+  body section.projects div#projectsContainer {
+    height: 150vh;
+  }
+  body section.projects div#projectsContainer div#projectsContent {
+    height: 120vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+    margin: 0;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div {
+    padding: 0;
+    margin: 0;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:first-child {
+    width: 100%;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:nth-child(2) {
+    width: 100%;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:last-child {
+    width: 100%;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:first-child .middle, body section.projects div#projectsContainer div#projectsContent > div:nth-child(2) .middle, body section.projects div#projectsContainer div#projectsContent > div:last-child .middle {
+    display: none;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:first-child:hover, body section.projects div#projectsContainer div#projectsContent > div:nth-child(2):hover, body section.projects div#projectsContainer div#projectsContent > div:last-child:hover {
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+  }
+  body section.contact {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/v1631539544/isocode_assests/background_13_oyw9rn.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  body section.contact div#contactContainer h1 {
+    color: transparent;
+    -webkit-text-stroke-color: white;
+    background-color: rgba(87, 75, 75, 0.267);
+    -webkit-text-stroke-width: .1px;
+    font-weight: bolder;
+  }
+  body section.contact div#contactContainer div#contactContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 90vh;
+    background: none;
+  }
+  body section.contact div#contactContainer div#contactContent div#reachUs {
+    width: 100vw;
+  }
+  body section.contact div#contactContainer div#contactContent div#reachUs .inN {
+    padding: 0%;
+    margin: 0%;
+    padding: 17px 0px 5px 8px;
+    font-size: 1.5em;
+    border-radius: 7px;
+    margin: 7px;
+  }
+  body section.contact div#contactContainer div#contactContent aside {
+    display: none;
+  }
+  body footer section#seventhBox {
+    height: auto;
+  }
+  body footer section#seventhBox div#footer_logo {
+    height: 10vh;
+  }
+  body footer section#seventhBox div#footer_end {
+    height: auto;
+  }
+  body footer section#seventhBox div#footer_end div#footer_nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 496px) and (max-width: 580px) {
+  body section.landPage {
+    height: 80vh;
+  }
+  body section.landPage div#landContent header {
+    height: 15vh;
+  }
+  body section.landPage div#landContent header div#logo {
+    background-color: red;
+  }
+  body section.landPage div#landContent header div#logo p {
+    padding: 0;
+    font-size: 1.4em;
+  }
+  body section.landPage div#landContent header nav ul li a {
+    padding: 0px 3.5px;
+    color: red;
+    color: cyan;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 1.05em;
+    margin: 0;
+    position: relative;
+  }
+  body section.landPage div#landContent header nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.7s;
+            transition-duration: 0.7s;
+  }
+  body section.landPage div#landContent header nav ul li a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.landPage div#landContent header nav ul li a:hover {
+    color: black;
+    font-size: 1.05em;
+  }
+  body section.landPage div#landContent div#inclusion {
+    height: 65vh;
+  }
+  body section.landPage div#landContent div#inclusion h1 {
+    color: white;
+    margin: 0px;
+    line-height: 7vh;
+    font-weight: bolder;
+    font-size: 1.35em;
+    text-shadow: -5px 5px 10px cyan;
+  }
+  body section.landPage div#landContent div#inclusion a {
+    font-weight: bolder;
+    color: white;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 2em;
+    margin: 20px 0px 0px;
+    position: relative;
+  }
+  body section.landPage div#landContent div#inclusion a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+  }
+  body section.landPage div#landContent div#inclusion a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.landPage div#landContent div#inclusion a:hover {
+    color: #0a0a0a;
+    font-size: 1.8em;
+  }
+  body section.about div#aboutContent {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body section.about div#aboutContent div#intro {
+    height: 70vh;
+    width: 100%;
+    padding: 7px 5px 0px 5px;
+    text-align: left;
+  }
+  body section.about div#aboutContent div#intro p {
+    line-height: 25px;
+    text-align: center;
+    font-size: 1.1em;
+  }
+  body section.about div#aboutContent div#intro p:first-child {
+    font-size: 1.4em;
+  }
+  body section.about div#aboutContent div#intro p:nth-child(4) {
+    font-size: 1.3em;
+  }
+  body section.about div#aboutContent div#intro a {
+    width: 40%;
+    color: white;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 2.5em;
+    margin: 10px 0px 0px 130px;
+    position: relative;
+  }
+  body section.about div#aboutContent div#intro a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+  }
+  body section.about div#aboutContent div#intro a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.about div#aboutContent div#intro a:hover {
+    color: #0a0a0a;
+    font-size: 1.9em;
+  }
+  body section.about div#aboutContent aside {
+    display: none;
+  }
+  body section.services {
+    height: 100vh;
+  }
+  body section.services div#servicesContent {
+    height: inherit;
+    padding: 20px;
+  }
+  body section.services div#servicesContent div#servicesContainer > p {
+    margin: 12px 0px;
+    width: 63vw;
+    padding: 11px 5px;
+    font-size: 1.7em;
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    text-shadow: 2px 3px 5px #4e4e4e;
+    -webkit-transition: -webkit-transform .5s, -webkit-filter .5s;
+    transition: -webkit-transform .5s, -webkit-filter .5s;
+    transition: transform .5s, filter .5s;
+    transition: transform .5s, filter .5s, -webkit-transform .5s, -webkit-filter .5s;
+  }
+  body section.testimony {
+    height: 150vh;
+    background-size: 100%;
+    background-position: center;
+    padding: 0;
+    background: none;
+  }
+  body section.testimony div#testimonyContent {
+    height: inherit;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer {
+    height: 125vh;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/v1631540117/isocode_assests/background_10_rpsjsu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: auto;
+  }
+  body section.projects {
+    padding: 10px;
+    height: 160vh;
+  }
+  body section.projects div#projectsContainer {
+    height: 150vh;
+  }
+  body section.projects div#projectsContainer div#projectsContent {
+    height: 120vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+    margin: 0;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div {
+    padding: 0;
+    margin: 0;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:first-child {
+    width: 100%;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:nth-child(2) {
+    width: 100%;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:last-child {
+    width: 100%;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:first-child .middle, body section.projects div#projectsContainer div#projectsContent > div:nth-child(2) .middle, body section.projects div#projectsContainer div#projectsContent > div:last-child .middle {
+    display: none;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:first-child:hover, body section.projects div#projectsContainer div#projectsContent > div:nth-child(2):hover, body section.projects div#projectsContainer div#projectsContent > div:last-child:hover {
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+  }
+  body section.contact {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/v1631539544/isocode_assests/background_13_oyw9rn.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  body section.contact div#contactContainer h1 {
+    color: transparent;
+    -webkit-text-stroke-color: white;
+    background-color: rgba(87, 75, 75, 0.267);
+    -webkit-text-stroke-width: .1px;
+    font-weight: bolder;
+    font-size: 3em;
+  }
+  body section.contact div#contactContainer div#contactContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 90vh;
+    background: none;
+  }
+  body section.contact div#contactContainer div#contactContent div#reachUs {
+    width: 100vw;
+  }
+  body section.contact div#contactContainer div#contactContent div#reachUs .inN {
+    padding: 18px 0px 8px 13px;
+    font-size: 1.3em;
+    border-radius: 10px;
+    margin: 12px;
+  }
+  body section.contact div#contactContainer div#contactContent aside {
+    display: none;
+  }
+  body footer section#seventhBox {
+    height: auto;
+  }
+  body footer section#seventhBox div#footer_logo {
+    height: 10vh;
+  }
+  body footer section#seventhBox div#footer_end {
+    height: auto;
+  }
+  body footer section#seventhBox div#footer_end div#footer_nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 581px) and (max-width: 680px) {
+  body section.landPage {
+    height: 80vh;
+  }
+  body section.landPage div#landContent header {
+    height: 15vh;
+  }
+  body section.landPage div#landContent header div#logo {
+    background-color: red;
+  }
+  body section.landPage div#landContent header div#logo p {
+    padding: 0;
+    font-size: 1.4em;
+  }
+  body section.landPage div#landContent header nav ul li a {
+    padding: 0px 2px;
+    color: red;
+    color: cyan;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0px 0px;
+    position: relative;
+  }
+  body section.landPage div#landContent header nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.7s;
+            transition-duration: 0.7s;
+  }
+  body section.landPage div#landContent header nav ul li a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.landPage div#landContent header nav ul li a:hover {
+    color: black;
+    font-size: 1.2em;
+  }
+  body section.landPage div#landContent div#inclusion {
+    height: 65vh;
+  }
+  body section.landPage div#landContent div#inclusion h1 {
+    color: white;
+    margin: 0px;
+    line-height: 7vh;
+    font-weight: bolder;
+    font-size: 1.4em;
+    text-shadow: -5px 5px 10px cyan;
+  }
+  body section.landPage div#landContent div#inclusion a {
+    font-weight: bolder;
+    color: white;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 2.3em;
+    margin: 20px 0px 0px;
+    position: relative;
+  }
+  body section.landPage div#landContent div#inclusion a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+  }
+  body section.landPage div#landContent div#inclusion a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.landPage div#landContent div#inclusion a:hover {
+    color: #0a0a0a;
+    font-size: 2em;
+  }
+  body section.about div#aboutContent {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body section.about div#aboutContent div#intro {
+    height: 70vh;
+    width: 100%;
+    padding: 7px 5px 0px 5px;
+    text-align: left;
+  }
+  body section.about div#aboutContent div#intro p {
+    line-height: 25px;
+    text-align: center;
+    font-size: 1.1em;
+  }
+  body section.about div#aboutContent div#intro p:first-child {
+    font-size: 1.4em;
+  }
+  body section.about div#aboutContent div#intro p:nth-child(4) {
+    font-size: 1.3em;
+  }
+  body section.about div#aboutContent div#intro a {
+    width: 40%;
+    color: white;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 2.5em;
+    margin: 10px 0px 0px 130px;
+    position: relative;
+  }
+  body section.about div#aboutContent div#intro a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+  }
+  body section.about div#aboutContent div#intro a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.about div#aboutContent div#intro a:hover {
+    color: #0a0a0a;
+    font-size: 1.9em;
+  }
+  body section.about div#aboutContent aside {
+    display: none;
+  }
+  body section.services {
+    height: 100vh;
+  }
+  body section.services div#servicesContent {
+    height: inherit;
+    padding: 20px;
+  }
+  body section.services div#servicesContent div#servicesContainer > p {
+    margin: 15px 0px;
+    width: 65vw;
+    padding: 12px 4px;
+    font-size: 1.7em;
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    text-shadow: 2px 3px 5px #4e4e4e;
+    -webkit-transition: -webkit-transform .5s, -webkit-filter .5s;
+    transition: -webkit-transform .5s, -webkit-filter .5s;
+    transition: transform .5s, filter .5s;
+    transition: transform .5s, filter .5s, -webkit-transform .5s, -webkit-filter .5s;
+  }
+  body section.testimony {
+    height: 170vh;
+    background-size: 100%;
+    background-position: center;
+    padding: 0;
+    background: none;
+  }
+  body section.testimony div#testimonyContent {
+    height: inherit;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer {
+    height: 150vh;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/v1631540117/isocode_assests/background_10_rpsjsu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: auto;
+  }
+  body section.projects {
+    padding: 10px;
+    height: 160vh;
+  }
+  body section.projects div#projectsContainer {
+    height: 150vh;
+  }
+  body section.projects div#projectsContainer div#projectsContent {
+    height: 120vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+    margin: 0;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div {
+    padding: 0;
+    margin: 0;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:first-child {
+    width: 100%;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:nth-child(2) {
+    width: 100%;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:last-child {
+    width: 100%;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:first-child .middle, body section.projects div#projectsContainer div#projectsContent > div:nth-child(2) .middle, body section.projects div#projectsContainer div#projectsContent > div:last-child .middle {
+    display: none;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:first-child:hover, body section.projects div#projectsContainer div#projectsContent > div:nth-child(2):hover, body section.projects div#projectsContainer div#projectsContent > div:last-child:hover {
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+  }
+  body section.contact {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/v1631539544/isocode_assests/background_13_oyw9rn.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  body section.contact div#contactContainer h1 {
+    color: transparent;
+    -webkit-text-stroke-color: white;
+    background-color: rgba(87, 75, 75, 0.267);
+    -webkit-text-stroke-width: .1px;
+    font-weight: bolder;
+    font-size: 3.1em;
+  }
+  body section.contact div#contactContainer div#contactContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 90vh;
+    background: none;
+  }
+  body section.contact div#contactContainer div#contactContent div#reachUs {
+    width: 100vw;
+  }
+  body section.contact div#contactContainer div#contactContent div#reachUs .inN {
+    padding: 18px 12px 14px;
+    font-size: 1.3em;
+    border-radius: 10px;
+    margin: 12px;
+  }
+  body section.contact div#contactContainer div#contactContent aside {
+    display: none;
+  }
+  body footer section#seventhBox {
+    height: auto;
+  }
+  body footer section#seventhBox div#footer_logo {
+    height: 10vh;
+  }
+  body footer section#seventhBox div#footer_end {
+    height: auto;
+  }
+  body footer section#seventhBox div#footer_end div#footer_nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 681px) and (max-width: 780px) {
+  body section.landPage {
+    background-size: 100% 100%;
+    height: 85vh;
+  }
+  body section.landPage div#landContent header {
+    height: 15vh;
+    padding: 0px 5px;
+  }
+  body section.landPage div#landContent header div#logo {
+    background-color: red;
+  }
+  body section.landPage div#landContent header div#logo p {
+    padding: 0;
+    font-size: 1.4em;
+  }
+  body section.landPage div#landContent header nav ul li a {
+    padding: 0px 5px;
+    color: red;
+    color: cyan;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 1.3em;
+    margin: 20px 0px;
+    position: relative;
+  }
+  body section.landPage div#landContent header nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.7s;
+            transition-duration: 0.7s;
+  }
+  body section.landPage div#landContent header nav ul li a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.landPage div#landContent header nav ul li a:hover {
+    color: black;
+    font-size: 1.3em;
+  }
+  body section.landPage div#landContent div#inclusion {
+    height: 70vh;
+  }
+  body section.landPage div#landContent div#inclusion h1 {
+    color: white;
+    margin: 0px;
+    line-height: 10vh;
+    font-weight: bolder;
+    font-size: 1.65em;
+    text-shadow: -5px 5px 10px cyan;
+  }
+  body section.landPage div#landContent div#inclusion a {
+    font-weight: bolder;
+    color: white;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 2.5em;
+    margin: 20px 0px 0px;
+    position: relative;
+  }
+  body section.landPage div#landContent div#inclusion a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+  }
+  body section.landPage div#landContent div#inclusion a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.landPage div#landContent div#inclusion a:hover {
+    color: #0a0a0a;
+    font-size: 2.2em;
+  }
+  body section.about div#aboutContent {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0px 10px;
+  }
+  body section.about div#aboutContent div#intro {
+    height: auto;
+    width: 70%;
+    padding: 5px 5px 0px 5px;
+    text-align: left;
+  }
+  body section.about div#aboutContent div#intro p {
+    line-height: 25px;
+    text-align: center;
+    font-size: 1.15em;
+  }
+  body section.about div#aboutContent div#intro p:first-child {
+    font-size: 1.3em;
+  }
+  body section.about div#aboutContent div#intro p:nth-child(4) {
+    font-size: 1.24em;
+  }
+  body section.about div#aboutContent div#intro a {
+    width: 40%;
+    color: white;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 2.1em;
+    margin: 10px 0px 0px 130px;
+    position: relative;
+  }
+  body section.about div#aboutContent div#intro a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+  }
+  body section.about div#aboutContent div#intro a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.about div#aboutContent div#intro a:hover {
+    color: #0a0a0a;
+    font-size: 1.9em;
+  }
+  body section.about div#aboutContent aside {
+    width: 30%;
+  }
+  body section.about div#aboutContent aside img {
+    height: 60vh;
+    max-width: 29vmax;
+  }
+  body section.services {
+    height: 80vh;
+  }
+  body section.services div#servicesContent {
+    height: inherit;
+    padding: 20px;
+  }
+  body section.services div#servicesContent div#servicesContainer > p {
+    margin: 15px 5px;
+    width: 40vw;
+    padding: 15px 7px;
+    font-size: 1.7em;
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    text-shadow: 2px 3px 5px #4e4e4e;
+    -webkit-transition: -webkit-transform .5s, -webkit-filter .5s;
+    transition: -webkit-transform .5s, -webkit-filter .5s;
+    transition: transform .5s, filter .5s;
+    transition: transform .5s, filter .5s, -webkit-transform .5s, -webkit-filter .5s;
+  }
+  body section.testimony {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/v1631540117/isocode_assests/background_10_rpsjsu.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0px;
+    height: 80vh;
+  }
+  body section.testimony div#testimonyContent {
+    height: 78vh;
+    color: white;
+  }
+  body section.testimony div#testimonyContent h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 68vh;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div {
+    padding: 10px;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+    width: 32%;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div i {
+    font-weight: bolder;
+    font-size: 4.4em;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div p {
+    font-size: 1.3em;
+    line-height: 1.45em;
+    font-weight: bold;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div div {
+    margin: 10px 0px;
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div div img {
+    border-radius: 50%;
+    width: 30%;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div div p {
+    font-size: 1.7em;
+    padding: 10px;
+  }
+  body section.projects {
+    padding: 10px;
+    height: 160vh;
+  }
+  body section.projects div#projectsContainer {
+    height: 150vh;
+  }
+  body section.projects div#projectsContainer div#projectsContent {
+    height: 120vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+    margin: 0;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div {
+    padding: 0;
+    margin: 0;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:first-child {
+    width: 100%;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:nth-child(2) {
+    width: 100%;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:last-child {
+    width: 100%;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:first-child .middle, body section.projects div#projectsContainer div#projectsContent > div:nth-child(2) .middle, body section.projects div#projectsContainer div#projectsContent > div:last-child .middle {
+    display: none;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:first-child:hover, body section.projects div#projectsContainer div#projectsContent > div:nth-child(2):hover, body section.projects div#projectsContainer div#projectsContent > div:last-child:hover {
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+  }
+  body section.contact {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/v1631539544/isocode_assests/background_13_oyw9rn.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  body section.contact div#contactContainer h1 {
+    color: transparent;
+    -webkit-text-stroke-color: white;
+    background-color: rgba(87, 75, 75, 0.267);
+    -webkit-text-stroke-width: .1px;
+    font-weight: bolder;
+    font-size: 3.1em;
+  }
+  body section.contact div#contactContainer div#contactContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 90vh;
+    background: none;
+  }
+  body section.contact div#contactContainer div#contactContent div#reachUs {
+    width: 100vw;
+  }
+  body section.contact div#contactContainer div#contactContent div#reachUs .inN {
+    padding: 15px 12px 8px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  body section.contact div#contactContainer div#contactContent aside {
+    display: none;
+  }
+  body footer section#seventhBox {
+    height: auto;
+  }
+  body footer section#seventhBox div#footer_logo {
+    height: 10vh;
+  }
+  body footer section#seventhBox div#footer_end {
+    height: auto;
+  }
+  body footer section#seventhBox div#footer_end div#footer_nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 781px) and (max-width: 880px) {
+  body section.landPage {
+    background-size: 100% 100%;
+    height: 85vh;
+  }
+  body section.landPage div#landContent header {
+    height: 15vh;
+    padding: 0px 5px;
+  }
+  body section.landPage div#landContent header div#logo {
+    background-color: red;
+  }
+  body section.landPage div#landContent header div#logo p {
+    padding: 0;
+    font-size: 1.4em;
+  }
+  body section.landPage div#landContent header nav ul li a {
+    padding: 0px 5px;
+    color: red;
+    color: cyan;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 1.3em;
+    margin: 20px 0px;
+    position: relative;
+  }
+  body section.landPage div#landContent header nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.7s;
+            transition-duration: 0.7s;
+  }
+  body section.landPage div#landContent header nav ul li a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.landPage div#landContent header nav ul li a:hover {
+    color: black;
+    font-size: 1.3em;
+  }
+  body section.landPage div#landContent div#inclusion {
+    height: 70vh;
+  }
+  body section.landPage div#landContent div#inclusion h1 {
+    color: white;
+    margin: 0px;
+    line-height: 10vh;
+    font-weight: bolder;
+    font-size: 1.65em;
+    text-shadow: -5px 5px 10px cyan;
+  }
+  body section.landPage div#landContent div#inclusion a {
+    font-weight: bolder;
+    color: white;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 2.5em;
+    margin: 20px 0px 0px;
+    position: relative;
+  }
+  body section.landPage div#landContent div#inclusion a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+  }
+  body section.landPage div#landContent div#inclusion a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.landPage div#landContent div#inclusion a:hover {
+    color: #0a0a0a;
+    font-size: 2.2em;
+  }
+  body section.about div#aboutContent {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0px 10px;
+  }
+  body section.about div#aboutContent div#intro {
+    height: auto;
+    width: 70%;
+    padding: 5px 5px 0px 5px;
+    text-align: left;
+  }
+  body section.about div#aboutContent div#intro p {
+    line-height: 25px;
+    text-align: center;
+    font-size: 1.15em;
+  }
+  body section.about div#aboutContent div#intro p:first-child {
+    font-size: 1.3em;
+  }
+  body section.about div#aboutContent div#intro p:nth-child(4) {
+    font-size: 1.24em;
+  }
+  body section.about div#aboutContent div#intro a {
+    width: 40%;
+    color: white;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 2.1em;
+    margin: 10px 0px 0px 130px;
+    position: relative;
+  }
+  body section.about div#aboutContent div#intro a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+  }
+  body section.about div#aboutContent div#intro a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.about div#aboutContent div#intro a:hover {
+    color: #0a0a0a;
+    font-size: 1.9em;
+  }
+  body section.about div#aboutContent aside {
+    width: 30%;
+  }
+  body section.about div#aboutContent aside img {
+    height: 60vh;
+    max-width: 29vmax;
+  }
+  body section.services {
+    height: 80vh;
+  }
+  body section.services div#servicesContent {
+    height: inherit;
+    padding: 20px;
+  }
+  body section.services div#servicesContent div#servicesContainer > p {
+    margin: 15px 5px;
+    width: 40vw;
+    padding: 15px 7px;
+    font-size: 1.7em;
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    text-shadow: 2px 3px 5px #4e4e4e;
+    -webkit-transition: -webkit-transform .5s, -webkit-filter .5s;
+    transition: -webkit-transform .5s, -webkit-filter .5s;
+    transition: transform .5s, filter .5s;
+    transition: transform .5s, filter .5s, -webkit-transform .5s, -webkit-filter .5s;
+  }
+  body section.testimony {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/v1631540117/isocode_assests/background_10_rpsjsu.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0px;
+    height: 80vh;
+  }
+  body section.testimony div#testimonyContent {
+    height: 78vh;
+    color: white;
+  }
+  body section.testimony div#testimonyContent h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 68vh;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div {
+    padding: 10px;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+    width: 32%;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div i {
+    font-weight: bolder;
+    font-size: 4.4em;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div p {
+    font-size: 1.3em;
+    line-height: 1.45em;
+    font-weight: bold;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div div {
+    margin: 10px 0px;
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div div img {
+    border-radius: 50%;
+    width: 30%;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div div p {
+    font-size: 1.7em;
+    padding: 10px;
+  }
+  body section.projects {
+    padding: 10px;
+    height: 160vh;
+  }
+  body section.projects div#projectsContainer {
+    height: 150vh;
+  }
+  body section.projects div#projectsContainer div#projectsContent {
+    height: 120vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+    margin: 0;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div {
+    padding: 0;
+    margin: 0;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:first-child {
+    width: 100%;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:nth-child(2) {
+    width: 100%;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:last-child {
+    width: 100%;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:first-child .middle, body section.projects div#projectsContainer div#projectsContent > div:nth-child(2) .middle, body section.projects div#projectsContainer div#projectsContent > div:last-child .middle {
+    display: none;
+  }
+  body section.projects div#projectsContainer div#projectsContent > div:first-child:hover, body section.projects div#projectsContainer div#projectsContent > div:nth-child(2):hover, body section.projects div#projectsContainer div#projectsContent > div:last-child:hover {
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+  }
+  body section.contact {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/v1631539544/isocode_assests/background_13_oyw9rn.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  body section.contact div#contactContainer h1 {
+    color: transparent;
+    -webkit-text-stroke-color: white;
+    background-color: rgba(87, 75, 75, 0.267);
+    -webkit-text-stroke-width: .1px;
+    font-weight: bolder;
+    font-size: 3.1em;
+  }
+  body section.contact div#contactContainer div#contactContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 90vh;
+    background: none;
+  }
+  body section.contact div#contactContainer div#contactContent div#reachUs {
+    width: 100vw;
+  }
+  body section.contact div#contactContainer div#contactContent div#reachUs .inN {
+    padding: 15px 12px 8px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  body section.contact div#contactContainer div#contactContent aside {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 881px) and (max-width: 1049px) {
+  body section.landPage {
+    background-size: 100% 100%;
+    height: 85vh;
+  }
+  body section.landPage div#landContent header {
+    height: 15vh;
+    padding: 0px 5px;
+  }
+  body section.landPage div#landContent header div#logo {
+    background-color: red;
+  }
+  body section.landPage div#landContent header div#logo p {
+    padding: 0;
+    font-size: 1.4em;
+  }
+  body section.landPage div#landContent header nav ul li a {
+    padding: 0px 5px;
+    color: red;
+    color: cyan;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 1.3em;
+    margin: 20px 0px;
+    position: relative;
+  }
+  body section.landPage div#landContent header nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.7s;
+            transition-duration: 0.7s;
+  }
+  body section.landPage div#landContent header nav ul li a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.landPage div#landContent header nav ul li a:hover {
+    color: black;
+    font-size: 1.3em;
+  }
+  body section.landPage div#landContent div#inclusion {
+    height: 70vh;
+  }
+  body section.landPage div#landContent div#inclusion h1 {
+    color: white;
+    margin: 0px;
+    line-height: 10vh;
+    font-weight: bolder;
+    font-size: 1.65em;
+    text-shadow: -5px 5px 10px cyan;
+  }
+  body section.landPage div#landContent div#inclusion a {
+    font-weight: bolder;
+    color: white;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 2.5em;
+    margin: 20px 0px 0px;
+    position: relative;
+  }
+  body section.landPage div#landContent div#inclusion a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+  }
+  body section.landPage div#landContent div#inclusion a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.landPage div#landContent div#inclusion a:hover {
+    color: #0a0a0a;
+    font-size: 2.2em;
+  }
+  body section.about div#aboutContent {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0px 10px;
+  }
+  body section.about div#aboutContent div#intro {
+    height: auto;
+    width: 68%;
+    padding: 5px 5px 0px 5px;
+    text-align: left;
+  }
+  body section.about div#aboutContent div#intro p {
+    line-height: 25px;
+    text-align: center;
+    font-size: 1.15em;
+  }
+  body section.about div#aboutContent div#intro p:first-child {
+    font-size: 1.3em;
+  }
+  body section.about div#aboutContent div#intro p:nth-child(4) {
+    font-size: 1.24em;
+  }
+  body section.about div#aboutContent div#intro a {
+    width: 40%;
+    color: white;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 2.1em;
+    margin: 10px 0px 0px 130px;
+    position: relative;
+  }
+  body section.about div#aboutContent div#intro a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+  }
+  body section.about div#aboutContent div#intro a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.about div#aboutContent div#intro a:hover {
+    color: #0a0a0a;
+    font-size: 1.9em;
+  }
+  body section.about div#aboutContent aside {
+    width: 28%;
+  }
+  body section.about div#aboutContent aside img {
+    height: 50vh;
+    max-width: 25vmax;
+  }
+  body section.services {
+    height: 80vh;
+  }
+  body section.services div#servicesContent {
+    height: inherit;
+    padding: 20px;
+  }
+  body section.services div#servicesContent div#servicesContainer > p {
+    margin: 15px 5px;
+    width: 40vw;
+    padding: 15px 7px;
+    font-size: 1.7em;
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    text-shadow: 2px 3px 5px #4e4e4e;
+    -webkit-transition: -webkit-transform .5s, -webkit-filter .5s;
+    transition: -webkit-transform .5s, -webkit-filter .5s;
+    transition: transform .5s, filter .5s;
+    transition: transform .5s, filter .5s, -webkit-transform .5s, -webkit-filter .5s;
+  }
+  body section.testimony {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/v1631540117/isocode_assests/background_10_rpsjsu.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0px;
+    height: 80vh;
+  }
+  body section.testimony div#testimonyContent {
+    height: 78vh;
+    color: white;
+  }
+  body section.testimony div#testimonyContent h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 68vh;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div {
+    padding: 10px;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+    width: 32%;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div i {
+    font-weight: bolder;
+    font-size: 4.4em;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div p {
+    font-size: 1.3em;
+    line-height: 1.45em;
+    font-weight: bold;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div div {
+    margin: 10px 0px;
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div div img {
+    border-radius: 50%;
+    width: 30%;
+  }
+  body section.testimony div#testimonyContent div#testimonyContainer > div div p {
+    font-size: 1.7em;
+    padding: 10px;
+  }
+  body section.contact {
+    background-image: url(https://res.cloudinary.com/isocode/image/upload/v1631539544/isocode_assests/background_13_oyw9rn.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  body section.contact div#contactContainer h1 {
+    color: transparent;
+    -webkit-text-stroke-color: white;
+    background-color: rgba(87, 75, 75, 0.267);
+    -webkit-text-stroke-width: .1px;
+    font-weight: bolder;
+    font-size: 3.1em;
+  }
+  body section.contact div#contactContainer div#contactContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 90vh;
+    background: none;
+  }
+  body section.contact div#contactContainer div#contactContent div#reachUs {
+    width: 100vw;
+  }
+  body section.contact div#contactContainer div#contactContent div#reachUs .inN {
+    padding: 15px 12px 8px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  body section.contact div#contactContainer div#contactContent aside {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1199px) {
+  body section.about div#aboutContent div#intro a {
+    width: 45%;
+    color: white;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 2.1em;
+    margin: 15px 0px 0px 125px;
+    position: relative;
+  }
+  body section.about div#aboutContent div#intro a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+  }
+  body section.about div#aboutContent div#intro a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.about div#aboutContent div#intro a:hover {
+    color: #0a0a0a;
+    font-size: 1.9em;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  body section.about div#aboutContent div#intro a {
+    width: 45%;
+    color: white;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 2.1em;
+    margin: 15px 0px 0px 125px;
+    position: relative;
+  }
+  body section.about div#aboutContent div#intro a::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -4%;
+    height: .05em;
+    width: 100%;
+    background-color: cyan;
+    border-radius: 20px;
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform linear;
+    transition: -webkit-transform linear;
+    transition: transform linear;
+    transition: transform linear, -webkit-transform linear;
+    -webkit-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+  }
+  body section.about div#aboutContent div#intro a:hover::after {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  body section.about div#aboutContent div#intro a:hover {
+    color: #0a0a0a;
+    font-size: 1.9em;
+  }
+}
+/*# sourceMappingURL=style.css.map */

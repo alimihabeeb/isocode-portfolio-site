@@ -1,0 +1,36 @@
+@mixin linkStyle($fontColor, $fontSize, $margin, $hoverColor, $transitionDuration, $hoverFontSize) {
+    color: $fontColor;
+    display: block;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: $fontSize;
+    margin: $margin;
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0%;
+        bottom: -4%;
+        height: .05em;
+        width: 100%;
+        background-color: $skyBlueColor;
+        border-radius: 20px;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform linear;
+        transition-duration: $transitionDuration;
+    }
+    &:hover::after {
+        transform: scaleY(1);
+        transform-origin: left;
+    }
+    &:hover {
+        color: $hoverColor;
+        font-size: $hoverFontSize;
+    }
+}
+
+@mixin flexDisplay() {
+    display: flex;
+    align-items: center;
+}

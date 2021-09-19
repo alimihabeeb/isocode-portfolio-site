@@ -1,0 +1,86 @@
+section.projects {
+    @include flexDisplay();
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    div#projectsContainer {
+        height: 80vh;
+        width: 100vw;
+        margin: auto;
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            text-transform: uppercase;
+        }
+        p {
+            text-align: center;
+            font-size: 1.5em;
+            line-height: 2em;
+        }
+        div#projectsContent {
+            background-color: $greyColor;
+            height: 60vh;
+            @include flexDisplay();
+            justify-content: center;
+            &>div {
+                height: auto;
+                width: auto;
+                margin: auto;
+                &:first-child {
+                    background: url(https://res.cloudinary.com/isocode/image/upload/v1631540719/isocode_assests/laFurniture_godian.png);
+                    height: 30vh;
+                    width: 29.8vw;
+                }
+                &:nth-child(2) {
+                    background: url(https://res.cloudinary.com/isocode/image/upload/v1631540712/isocode_assests/laBooking_algn2j.jpg);
+                    height: 33vh;
+                    width: 30.15vw;
+                }
+                &:last-child {
+                    background: url(https://res.cloudinary.com/isocode/image/upload/v1631540719/isocode_assests/laHotel_py48se.png);
+                    height: 30vh;
+                    width: 30.2vw;
+                }
+                &:first-child,
+                &:nth-child(2),
+                &:last-child {
+                    position: relative;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    transform: scale(.8);
+                    transition: transform .4s;
+                    .middle {
+                        transition: .5s ease;
+                        opacity: 0;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        text-align: center;
+                        text-transform: capitalize;
+                        .text {
+                            border-radius: 10px;
+                            text-transform: capitalize;
+                            background-color: #00000093;
+                            p {
+                                font-size: 1.2em;
+                                line-height: 1.4em;
+                                color: rgb(255, 255, 255);
+                            }
+                            a {
+                                font-size: 1.5em;
+                                text-decoration: none;
+                                color: $skyBlueColor;
+                            }
+                        }
+                    }
+                    &:hover {
+                        transform: scale(1.05);
+                        .middle {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
